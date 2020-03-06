@@ -14,8 +14,16 @@
 
 要求python版本>=3.6
 ```
-pip3 install --upgrade zvt
+pip3 install zvt -i http://pypi.douban.com/simple --trusted-host pypi.douban.com
+
+pip3 show zvt
 ```
+如果不是最新版本
+```
+pip3 install --upgrade zvt  -i http://pypi.douban.com/simple --trusted-host pypi.douban.com
+```
+
+> 请根据需要决定是否使用豆瓣镜像源
 
 ## 2. 数据
 
